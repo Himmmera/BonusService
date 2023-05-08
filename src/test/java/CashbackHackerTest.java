@@ -2,7 +2,7 @@ import ru.netology.CashbackHacker;
 
 import static org.testng.Assert.*;
 
-public class CashbackHackerTest {
+
     public class CashbackHackerTest {
         @org.testng.annotations.Test
         public void testRemain() {
