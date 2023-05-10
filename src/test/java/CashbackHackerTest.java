@@ -20,7 +20,14 @@ import static org.testng.Assert.*;
             int expected = 100;
             assertEquals(actual, expected);
         }
+        @org.testng.annotations.Test
+        public void testRemain1() {
+            CashbackHacker service = new CashbackHacker();
+            int amount = 0;
+            int actual = service.remain(amount);
+            int expected = 1000;
+            assertEquals(actual, expected);
+        }
                 }
 
 
-    
